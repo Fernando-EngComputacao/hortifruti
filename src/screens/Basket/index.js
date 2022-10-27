@@ -1,10 +1,11 @@
 import React from "react";
-import { Text, View } from "react-native";
+import { ScrollView, Text, View } from "react-native";
+import Top from "../Top";
 
 export default function Home(){
 
-    return <View style={{flex:1,justifyContent:"center",alignItems:"center"}}>
-    {/* return <View> */}
-        <Text>IF Goiano!</Text>
-    </View>
+    return <ScrollView>
+        <Top />
+        <Text style={{flex:1,justifyContent:"center",alignItems:"center"}}>IF Goiano!</Text>
+    </ScrollView>
 }

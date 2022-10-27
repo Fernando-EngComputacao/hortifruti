@@ -8,6 +8,7 @@ import Basket from './BasketRoute';
 import IconHome from '../assets/home.svg';
 import IconCodeBox from '../assets/codebox.svg';
 import IconBook from '../assets/book.svg';
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function AppRoutes(){
     const Tab = createBottomTabNavigator();
